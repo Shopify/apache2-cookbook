@@ -18,3 +18,5 @@
 #
 
 default['apache']['mod_ssl']['cipher_suite'] = 'RC4-SHA:HIGH:!ADH'
+default['apache']['mod_ssl']['protocols']    = 'all -SSLv2 -SSLv3'
+
